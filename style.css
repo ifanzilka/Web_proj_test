@@ -1,0 +1,49 @@
+.main
+{
+    background-color: rgb(57, 57, 57);
+
+    padding: 40px 20px 40px 20px;
+
+    width: 500px;
+    
+    color: white;
+
+    border-radius: 20px;
+
+    margin: 20px auto 0 auto;
+
+    font-family: 'Sometype Mono', monospace;
+
+
+}
+.input
+{
+    border: 0;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    width: 70%;
+
+}
+.input:focus
+{
+    outline: 3px solid green;
+}
+
+.button
+{
+    border: 0;
+    padding: 4px 8px 4px 8px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+
+}
+.button:hover
+{
+    opacity: 0.7;
+}
+.button:active
+{
+    opacity: 0.9;
+}
