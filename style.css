@@ -4,7 +4,7 @@
 
     padding: 40px 20px 40px 20px;
 
-    width: 500px;
+    max-width: 500px;
     
     color: white;
 
@@ -13,7 +13,7 @@
     margin: 20px auto 0 auto;
 
     font-family: 'Sometype Mono', monospace;
-
+    box-sizing: border-box;
 
 }
 .input
@@ -21,7 +21,8 @@
     border: 0;
     padding: 4px 8px 4px 8px;
     border-radius: 10px;
-    width: 70%;
+width: 100%;
+box-sizing: border-box;
 
 }
 .input:focus
@@ -37,6 +38,8 @@
     color: white;
     border-radius: 10px;
     width: 80px;
+    margin: 0 auto 0 auto;
+    display: block;
 
 }
 .button:hover
@@ -46,4 +49,10 @@
 .button:active
 {
     opacity: 0.9;
+}
+
+
+.tool {
+    width: 100%;
+    margin-top: 12px;
 }
